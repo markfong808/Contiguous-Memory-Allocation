@@ -1,0 +1,37 @@
+Enter command (A-allocate,F-free,S-show,R-readScript,C-compact,E-exit)> 
+Action: A , Process Name: A , Size: 10 , Algorithm: F  
+Enter command (A-allocate,F-free,S-show,R-readScript,C-compact,E-exit)> 
+Action: A , Process Name: X , Size: 10 , Algorithm: F  
+Enter command (A-allocate,F-free,S-show,R-readScript,C-compact,E-exit)> 
+Action: A , Process Name: B , Size: 10 , Algorithm: F  
+Enter command (A-allocate,F-free,S-show,R-readScript,C-compact,E-exit)> 
+Action: A , Process Name: X , Size: 20 , Algorithm: F  
+Enter command (A-allocate,F-free,S-show,R-readScript,C-compact,E-exit)> 
+Action: A , Process Name: C , Size: 5 , Algorithm: F  
+Enter command (A-allocate,F-free,S-show,R-readScript,C-compact,E-exit)> 
+Action: A , Process Name: X , Size: 15 , Algorithm: F  
+Enter command (A-allocate,F-free,S-show,R-readScript,C-compact,E-exit)> 
+Action: A , Process Name: D , Size: 5 , Algorithm: F  
+Enter command (A-allocate,F-free,S-show,R-readScript,C-compact,E-exit)> 
+Freeing allocated memory for process X 
+Enter command (A-allocate,F-free,S-show,R-readScript,C-compact,E-exit)> 
+Memory Pool Contents:
+AAAAAAAAAA..........BBBBBBBBBB....................CCCCC...............DDDDD.....
+Enter command (A-allocate,F-free,S-show,R-readScript,C-compact,E-exit)> 
+Action: A , Process Name: E , Size: 25 , Algorithm: F  
+Not enough space to allocate!
+Enter command (A-allocate,F-free,S-show,R-readScript,C-compact,E-exit)> 
+Action: A , Process Name: F , Size: 15 , Algorithm: F  
+Enter command (A-allocate,F-free,S-show,R-readScript,C-compact,E-exit)> 
+Action: A , Process Name: G , Size: 3 , Algorithm: B  
+Enter command (A-allocate,F-free,S-show,R-readScript,C-compact,E-exit)> 
+Action: A , Process Name: H , Size: 1 , Algorithm: W  
+Enter command (A-allocate,F-free,S-show,R-readScript,C-compact,E-exit)> 
+Memory Pool Contents:
+AAAAAAAAAA..........BBBBBBBBBBFFFFFFFFFFFFFFFGGG..CCCCCH..............DDDDD.....
+Enter command (A-allocate,F-free,S-show,R-readScript,C-compact,E-exit)> 
+Compacting memory... 
+Memory Pool Contents:
+AAAAAAAAAABBBBBBBBBBFFFFFFFFFFFFFFFGGGCCCCCHDDDDD...............................
+Enter command (A-allocate,F-free,S-show,R-readScript,C-compact,E-exit)> 
+Exit terminal!
